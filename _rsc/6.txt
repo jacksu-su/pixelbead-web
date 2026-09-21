@@ -1,0 +1,434 @@
+1:"$Sreact.fragment"
+c:I[7150,[],""]
+:HL["/_next/static/css/c892c177b17c2681.css","style"]
+2:Te84,
+              /* 强制隐藏Next.js开发工具 - 最高优先级，立即执行 */
+              #__next-build-watcher,
+              [data-nextjs-dev-indicator],
+              [data-nextjs-dialog],
+              [data-nextjs-dev-overlay],
+              [class*="react-dev-overlay"],
+              [class*="nextjs-dev-overlay"],
+              [class*="__next-dev"],
+              [id*="__next-dev"],
+              [id*="nextjs-dev"],
+              button[aria-label*="Next.js"],
+              button[title*="Next.js"],
+              button[aria-label*="next.js"],
+              button[title*="next.js"],
+              /* 隐藏所有固定定位在左下角的元素（包含N的圆形按钮）- 最激进策略 */
+              *[style*="position: fixed"][style*="bottom"][style*="left"],
+              *[style*="position:fixed"][style*="bottom"][style*="left"],
+              /* 匹配任何固定定位在左下角的元素 */
+              body > *[style*="position: fixed"],
+              body > *[style*="position:fixed"],
+              /* 匹配特定位置的元素（左下角区域） */
+              *[style*="bottom: 0"][style*="left"],
+              *[style*="bottom:0"][style*="left"],
+              /* 新增：匹配所有可能包含N字母的圆形按钮 - 通过位置和大小判断 */
+              button[style*="position: fixed"][style*="bottom"],
+              button[style*="position:fixed"][style*="bottom"],
+              div[style*="position: fixed"][style*="bottom"][style*="left"],
+              div[style*="position:fixed"][style*="bottom"][style*="left"],
+              a[style*="position: fixed"][style*="bottom"][style*="left"],
+              a[style*="position:fixed"][style*="bottom"][style*="left"] {
+                display: none !important;
+                visibility: hidden !important;
+                opacity: 0 !important;
+                pointer-events: none !important;
+                position: absolute !important;
+                left: -99999px !important;
+                top: -99999px !important;
+                width: 0 !important;
+                height: 0 !important;
+                overflow: hidden !important;
+                z-index: -999999 !important;
+                max-width: 0 !important;
+                max-height: 0 !important;
+                padding: 0 !important;
+                margin: 0 !important;
+                border: none !important;
+                outline: none !important;
+              }
+              /* 白名单：手机端底部导航必须保持可见并贴底（电脑端隐藏） */
+              @media (max-width: 767px) {
+                [data-bottom-tabbar="true"] {
+                  display: block !important;
+                  visibility: visible !important;
+                  opacity: 1 !important;
+                  pointer-events: auto !important;
+                  position: fixed !important;
+                  left: 0 !important;
+                  right: 0 !important;
+                  bottom: 0 !important;
+                  top: auto !important;
+                  z-index: 55 !important;
+                  width: 100% !important;
+                  max-width: 100% !important;
+                  height: auto !important;
+                  max-height: none !important;
+                  overflow: visible !important;
+                  margin: 0 !important;
+                }
+              }
+              @media (min-width: 768px) {
+                [data-bottom-tabbar="true"] {
+                  display: none !important;
+                  visibility: hidden !important;
+                  opacity: 0 !important;
+                  pointer-events: none !important;
+                }
+              }
+            0:{"P":null,"b":"F8C1GutbvopDx70NwwizS","p":"","c":["","6"],"i":false,"f":[[["",{"children":["6",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/c892c177b17c2681.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","className":"","children":[["$","head",null,{"children":["$","link",null,{"rel":"preload","href":"/_custom/pixelbead-approved-ui.png","as":"image"}]}],["$","body",null,{"className":"antialiased overflow-x-hidden bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100","style":{"fontFamily":"ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\""},"children":[false,["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5","$L6","$L7","$L8"]}]]}]]}],{"children":["6","$L9",{"children":["__PAGE__","$La",{},null,false]},null,false]},null,false],"$Lb",false]],"m":"$undefined","G":["$c",[]],"s":false,"S":true}
+d:I[1402,["1689","static/chunks/1689-d16695d58cdbd542.js","7177","static/chunks/app/layout-31742eb806cd71bf.js"],""]
+e:I[9766,[],""]
+f:I[8924,[],""]
+13:I[7989,[],"ClientSegmentRoot"]
+14:I[9281,["5440","static/chunks/app/6/layout-ea4bb8d1ab4e927e.js"],"default"]
+16:I[1959,[],"ClientPageRoot"]
+17:I[8493,["6394","static/chunks/6394-9c5231082c52ff1e.js","2909","static/chunks/2909-ff9255f86194b18b.js","1689","static/chunks/1689-d16695d58cdbd542.js","4968","static/chunks/4968-dc14e036f5effefe.js","5347","static/chunks/5347-bf89e16468f199ee.js","8493","static/chunks/8493-3d1e765a863e12e3.js?v=20260917-10","2983","static/chunks/app/6/page-ed9bbebcbcb650c4.js"],"default"]
+1a:I[4431,[],"OutletBoundary"]
+1c:I[5278,[],"AsyncMetadataOutlet"]
+1e:I[4431,[],"ViewportBoundary"]
+20:I[4431,[],"MetadataBoundary"]
+21:"$Sreact.suspense"
+3:["$","$Ld",null,{"id":"capture-early-image-upload","strategy":"beforeInteractive","dangerouslySetInnerHTML":{"__html":"\n              document.addEventListener('change', function(event) {\n                var target = event.target;\n                if (target && target.id === 'pindou-image-upload-input') {\n                  target.setAttribute('data-pending-upload', '1');\n                }\n              }, true);\n            "}}]
+4:["$","$Le",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lf",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]
+10:T6b8,
+              (function() {
+                try {
+                  var reloadKey = 'perler_legacy_pwa_removed';
+                  if (window.localStorage && localStorage.getItem(reloadKey) === '1') return;
+                  var cleanup = async function() {
+                    var didCleanup = false;
+
+                    if (navigator && navigator.serviceWorker) {
+                      var registrations = await navigator.serviceWorker.getRegistrations();
+                      for (var i = 0; i < registrations.length; i += 1) {
+                        var ok = await registrations[i].unregister();
+                        didCleanup = didCleanup || ok;
+                      }
+                    }
+
+                    if (window.caches) {
+                      var cacheNames = await window.caches.keys();
+                      for (var j = 0; j < cacheNames.length; j += 1) {
+                        var deleted = await window.caches.delete(cacheNames[j]);
+                        didCleanup = didCleanup || deleted;
+                      }
+                    }
+
+                    if (window.localStorage) localStorage.setItem(reloadKey, '1');
+                    if (didCleanup && window.sessionStorage && sessionStorage.getItem(reloadKey) !== '1') {
+                      sessionStorage.setItem(reloadKey, '1');
+                      window.location.reload();
+                    }
+                  };
+
+                  cleanup().catch(function(error) {
+                    console.warn('清理旧版PWA缓存失败:', error);
+                  });
+                } catch (error) {
+                  console.warn('启动旧版PWA清理失败:', error);
+                }
+              })();
+            5:["$","$Ld",null,{"id":"remove-legacy-pwa","strategy":"beforeInteractive","dangerouslySetInnerHTML":{"__html":"$10"}}]
+11:T8a8,
+              (function() {
+                // 在页面加载前检查URL参数并修改标题
+                if (typeof window !== 'undefined' && window.location) {
+                  try {
+                    const urlParams = new URLSearchParams(window.location.search);
+                    const isFromBat = urlParams.get('from') === 'bat';
+                    
+                    if (isFromBat) {
+                      // 从.bat文件打开，立即修改标题
+                      document.title = "拼豆生成器 - 桌面专用版";
+                      
+                      // 持续监听，防止被其他脚本覆盖
+                      const originalTitle = document.title;
+                      const observer = new MutationObserver(function(mutations) {
+                        if (document.title !== "拼豆生成器 - 桌面专用版") {
+                          document.title = "拼豆生成器 - 桌面专用版";
+                        }
+                      });
+                      
+                      // 监听document.title的变化
+                      if (document.head) {
+                        observer.observe(document.head, {
+                          childList: true,
+                          subtree: true
+                        });
+                      }
+                      
+                      // 在DOMContentLoaded时再次设置
+                      if (document.readyState === 'loading') {
+                        document.addEventListener('DOMContentLoaded', function() {
+                          document.title = "拼豆生成器 - 桌面专用版";
+                        });
+                      } else {
+                        document.title = "拼豆生成器 - 桌面专用版";
+                      }
+                      
+                      // 在window.onload时再次设置
+                      window.addEventListener('load', function() {
+                        document.title = "拼豆生成器 - 桌面专用版";
+                      });
+                    }
+                  } catch(e) {
+                    console.warn('修改标题失败:', e);
+                  }
+                }
+              })();
+            6:["$","$Ld",null,{"id":"update-title-from-bat","strategy":"beforeInteractive","dangerouslySetInnerHTML":{"__html":"$11"}}]
+7:["$","$Ld",null,{"id":"baidu-tongji","strategy":"afterInteractive","children":"\n              var _hmt = _hmt || [];\n              (function() {\n                var hm = document.createElement(\"script\");\n                hm.src = \"https://hm.baidu.com/hm.js?2ec68b10f471c1f6943697f638a77e5a\";\n                var s = document.getElementsByTagName(\"script\")[0]; \n                s.parentNode.insertBefore(hm, s);\n              })();\n            "}]
+12:T32e4,
+              (function() {
+                'use strict';
+                function removeDevTools() {
+                  try {
+                    // 移除开发指示器按钮 - 直接删除元素
+                    const selectors = [
+                      '[data-nextjs-dev-indicator]',
+                      '#__next-build-watcher',
+                      'button[aria-label*="Next.js" i]',
+                      'button[title*="Next.js" i]',
+                      '[data-nextjs-dialog]',
+                      '[data-nextjs-dev-overlay]',
+                      '[class*="react-dev-overlay"]',
+                      '[class*="nextjs-dev-overlay"]',
+                      '[id*="__next-dev"]',
+                      '[id*="nextjs-dev"]',
+                      'div[role="dialog"][data-nextjs-dialog]',
+                      'iframe[src*="__next"]',
+                      'iframe[src*="nextjs"]'
+                    ];
+                    
+                    selectors.forEach(selector => {
+                      try {
+                        const elements = document.querySelectorAll(selector);
+                        elements.forEach(el => {
+                          if (el && el.parentNode) {
+                            el.remove();
+                          }
+                        });
+                      } catch(e) {}
+                    });
+                    
+                    // 查找并移除包含特定文本的菜单（Route, Try Turbopack, Preferences）
+                    const menuElements = document.querySelectorAll('div, button, span, a');
+                    menuElements.forEach(el => {
+                      try {
+                        const text = (el.textContent || '').trim();
+                        if (text.includes('Route') && text.includes('Try Turbopack') && text.includes('Preferences')) {
+                          const rect = el.getBoundingClientRect();
+                          if (rect.left < window.innerWidth * 0.5 && rect.bottom > window.innerHeight * 0.5) {
+                            el.remove();
+                          }
+                        }
+                      } catch(e) {}
+                    });
+                    
+                    // 查找并移除包含单个字母"N"的圆形按钮（左下角）- 更激进的策略
+                    const allElements = document.querySelectorAll('*');
+                    allElements.forEach(el => {
+                      try {
+                        const text = (el.textContent || '').trim();
+                        const rect = el.getBoundingClientRect();
+                        const computedStyle = window.getComputedStyle(el);
+                        const isFixed = computedStyle.position === 'fixed';
+                        const isAbsolute = computedStyle.position === 'absolute';
+                        
+                        // 检查是否是左下角的圆形按钮，包含"N"
+                        if (text === 'N' || text === 'n') {
+                          // 检查位置和大小
+                          if ((rect.width >= 20 && rect.width <= 100) && 
+                              (rect.height >= 20 && rect.height <= 100) &&
+                              rect.left <= 200 && 
+                              rect.bottom >= window.innerHeight - 200 &&
+                              (isFixed || isAbsolute || rect.bottom > window.innerHeight * 0.7)) {
+                            el.remove();
+                            return;
+                          }
+                        }
+                        
+                        // 检查是否有N相关的属性
+                        const id = el.id || '';
+                        const className = el.className || '';
+                        const ariaLabel = el.getAttribute('aria-label') || '';
+                        const title = el.getAttribute('title') || '';
+                        
+                        if ((id.includes('next') || id.includes('dev') || id.includes('indicator') ||
+                             className.includes('next') || className.includes('dev') || className.includes('indicator') ||
+                             ariaLabel.toLowerCase().includes('next') || title.toLowerCase().includes('next')) &&
+                            rect.left <= 200 && rect.bottom >= window.innerHeight - 200) {
+                          el.remove();
+                        }
+                      } catch(e) {}
+                    });
+                    
+                    // 查找所有固定定位在左下角的元素 - 只针对真正的悬浮球
+                    const fixedElements = document.querySelectorAll('*');
+                    fixedElements.forEach(el => {
+                      try {
+                        const style = window.getComputedStyle(el);
+                        // 只处理fixed定位的元素，排除absolute（避免误删上传提示）
+                        if (style.position === 'fixed') {
+                          // 白名单：不要误伤站内底部导航等固定组件
+                          if (el instanceof Element && el.closest('[data-bottom-tabbar="true"]')) {
+                            return;
+                          }
+                          const rect = el.getBoundingClientRect();
+                          const text = (el.textContent || '').trim();
+                          const tagName = el.tagName.toLowerCase();
+                          
+                          // 排除包含上传相关关键词的元素
+                          const isUploadHint = text.includes('上传') || 
+                                             text.includes('上传图片') ||
+                                             text.includes('JPG') || 
+                                             text.includes('PNG') || 
+                                             text.includes('CSV') ||
+                                             text.includes('拖拽') ||
+                                             text.includes('点击');
+                          
+                          // 排除非圆形的大元素（提示文字通常是矩形）
+                          const isLargeElement = rect.width > 150 || rect.height > 50;
+                          
+                          // 只在真正靠近左下角边缘时才处理（左<100px，底>窗口高度-100px）
+                          if (rect.left <= 100 && rect.bottom >= window.innerHeight - 100 && !isUploadHint && !isLargeElement) {
+                            // 检查是否是按钮或可点击元素
+                            const isClickable = tagName === 'button' || 
+                                              tagName === 'a' || 
+                                              el.getAttribute('role') === 'button' ||
+                                              style.cursor === 'pointer' ||
+                                              el.onclick !== null ||
+                                              el.getAttribute('onclick') !== null;
+                            
+                            // 只有是小圆形按钮（单个字母N）或包含特定开发工具文本时才删除
+                            if ((isClickable && (text === 'N' || text === 'n' || text.length === 1) && rect.width <= 100 && rect.height <= 100) ||
+                                text.includes('Route') || 
+                                text.includes('Turbopack') ||
+                                text.includes('Preferences')) {
+                              // 强制隐藏并删除
+                              el.style.display = 'none';
+                              el.style.visibility = 'hidden';
+                              el.style.opacity = '0';
+                              el.style.pointerEvents = 'none';
+                              el.style.width = '0';
+                              el.style.height = '0';
+                              if (el.parentNode) {
+                                el.remove();
+                              }
+                            }
+                          }
+                        }
+                      } catch(e) {}
+                    });
+                    
+                    // 额外检查：查找所有包含单个字母N的小圆形按钮 - 只针对fixed定位
+                    const allButtons = document.querySelectorAll('button, a, div, span, svg, path');
+                    allButtons.forEach(el => {
+                      try {
+                        const text = (el.textContent || '').trim();
+                        const rect = el.getBoundingClientRect();
+                        const style = window.getComputedStyle(el);
+                        const computedPosition = style.position;
+                        
+                        // 排除上传提示文字
+                        const isUploadHint = text.includes('上传') || 
+                                           text.includes('JPG') || 
+                                           text.includes('PNG') || 
+                                           text.includes('CSV') ||
+                                           text.includes('拖拽') ||
+                                           text.includes('点击');
+                        
+                        // 只处理fixed定位的小圆形按钮，且必须在真正靠近左下角边缘
+                        if ((text === 'N' || text === 'n') && 
+                            rect.width <= 100 && 
+                            rect.height <= 100 &&
+                            rect.left <= 100 &&  // 严格限制在左边界100px内
+                            rect.bottom >= window.innerHeight - 100 &&  // 严格限制在底边界100px内
+                            computedPosition === 'fixed' &&  // 只处理fixed定位
+                            !isUploadHint) {
+                          // 白名单：不要误伤站内底部导航等固定组件
+                          if (el instanceof Element && el.closest('[data-bottom-tabbar="true"]')) {
+                            return;
+                          }
+                          // 强制隐藏并删除
+                          el.style.display = 'none';
+                          el.style.visibility = 'hidden';
+                          el.style.opacity = '0';
+                          el.style.pointerEvents = 'none';
+                          el.style.width = '0';
+                          el.style.height = '0';
+                          if (el.parentNode) {
+                            el.remove();
+                          }
+                        }
+                      } catch(e) {}
+                    });
+                  } catch(e) {}
+                }
+                
+                // 立即执行（在DOM加载前）
+                if (typeof document !== 'undefined') {
+                  removeDevTools();
+                  
+                  // DOMContentLoaded时执行
+                  if (document.readyState === 'loading') {
+                    document.addEventListener('DOMContentLoaded', removeDevTools);
+                  } else {
+                    removeDevTools();
+                  }
+                  
+                  // 监听DOM变化，持续移除
+                  if (document.body) {
+                    const observer = new MutationObserver(removeDevTools);
+                    observer.observe(document.body, {
+                      childList: true,
+                      subtree: true,
+                      attributes: true,
+                      attributeFilter: ['style', 'class', 'id']
+                    });
+                    
+                    // 最频繁的检查 - 每10ms检查一次
+                    setInterval(removeDevTools, 10);
+                    
+                    // 额外的requestAnimationFrame检查（每次重绘时检查）
+                    function rafCheck() {
+                      removeDevTools();
+                      requestAnimationFrame(rafCheck);
+                    }
+                    requestAnimationFrame(rafCheck);
+                    
+                    // 监听窗口事件
+                    window.addEventListener('load', removeDevTools);
+                    window.addEventListener('resize', removeDevTools);
+                  } else {
+                    document.addEventListener('DOMContentLoaded', function() {
+                      const observer = new MutationObserver(removeDevTools);
+                      observer.observe(document.body, {
+                        childList: true,
+                        subtree: true,
+                        attributes: true,
+                        attributeFilter: ['style', 'class', 'id']
+                      });
+                      setInterval(removeDevTools, 50);
+                      window.addEventListener('load', removeDevTools);
+                      window.addEventListener('resize', removeDevTools);
+                    });
+                  }
+                }
+              })();
+            8:["$","$Ld",null,{"id":"hide-nextjs-dev-tools","strategy":"beforeInteractive","dangerouslySetInnerHTML":{"__html":"$12"}}]
+9:["$","$1","c",{"children":[null,["$","$L13",null,{"Component":"$14","slots":{"children":["$","$Le",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lf",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]},"params":{},"promise":"$@15"}]]}]
+a:["$","$1","c",{"children":[["$","$L16",null,{"Component":"$17","searchParams":{},"params":"$9:props:children:1:props:params","promises":["$@18","$@19"]}],null,["$","$L1a",null,{"children":["$L1b",["$","$L1c",null,{"promise":"$@1d"}]]}]]}]
+b:["$","$1","h",{"children":[null,[["$","$L1e",null,{"children":"$L1f"}],null],["$","$L20",null,{"children":["$","div",null,{"hidden":true,"children":["$","$21",null,{"fallback":null,"children":"$L22"}]}]}]]}]
+15:"$9:props:children:1:props:params"
+18:{}
+19:"$9:props:children:1:props:params"
+1f:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover, user-scalable=no"}],["$","meta","2",{"name":"theme-color","content":"#000000"}]]
+1b:null
+23:I[622,[],"IconMark"]
+1d:{"metadata":[["$","title","0",{"children":"PixelBead 拼豆图纸生成器 | pixelbeads拼豆图纸转换器 | 拼豆图片生成器"}],["$","meta","1",{"name":"description","content":"上传图片，调整精细度，一键生成像素画图纸，简单实用的像素画生成工具"}],["$","meta","2",{"name":"keywords","content":"拼豆,拼豆图纸,Perler Beads,像素画,拼豆生成器,PixelBead 拼豆生成器,拼豆底稿,拼豆设计,拼豆图案,像素艺术,PixelBead 像素拼豆生成器,拼豆工具"}],["$","link","3",{"rel":"icon","href":"/_custom/pixelbead-pb-mark-v2.svg","type":"image/x-icon","sizes":"48x48"}],["$","link","4",{"rel":"icon","href":"/_custom/pixelbead-pb-mark-v2.svg","type":"image/png"}],["$","$L23","5",{}]],"error":null,"digest":"$undefined"}
+22:"$1d:metadata"
